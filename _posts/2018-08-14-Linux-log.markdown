@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Linux에서 로그보기"
+date:   2018-08-14
+author: Sewon Lee
+categories: Linux
+tags:	Linux log 
+cover:  "/assets/instacode.png"
+---
+
+## 리눅스에서 실시간으로 로그 보기
+##### tail 기능
+파일의 마지막 부분을 출력한다.
+
+##### 문법
+tail [option] ... [file] ...  
+기본 출력은 파일의 마지막 10줄을 보여준다.
+
+###### 옵션
+- f : 파일의 마지막 10라인을 계속해서 출력
+- F : 파일 변동 시 실시간으로 보여주되 로그파일처럼 특정시간이 지난 후 파일이 변하게 되면 새로운 파일을 오픈하여 보여줌(다시 명령을 실행할 필요가 없음)
+- n : n만큼의 라인을 출력
+- n+n : 마지막 줄이 아니라 첫번째 줄부터 시작해 n번째 라인 이후부터 출력
+
+###### 예제
+$ tail -f catalina.out
+
+
+
+"참조" <http://windfree.tistory.com/40>
