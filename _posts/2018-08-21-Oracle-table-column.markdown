@@ -3,7 +3,7 @@ layout: post
 title:  "Oracle에서 table, column 목록 조회"
 date:   2018-08-21
 author: Sewon Lee
-categories: Oracle
+categories: Databases
 tags:	Oracle table column
 cover:  "/assets/instacode.png"
 ---
