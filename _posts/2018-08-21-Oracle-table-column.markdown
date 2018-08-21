@@ -8,7 +8,7 @@ tags:	Oracle table column
 cover:  "/assets/instacode.png"
 ---
 
-## 1. 테이블 목록조회  
+#### 1. 테이블 목록조회  
 SELECT *  
 FROM ALL_ALL_TABLES;  
 
@@ -41,7 +41,7 @@ SELECT *
 FROM USER_TAB_COMMENTS;  
 
 
-## 2. 컬럼 목록조회  
+#### 2. 컬럼 목록조회  
 SELECT *  
 FROM COLS  
 WHERE TABLE_NAME = '테이블명'  
@@ -59,7 +59,7 @@ SELECT *
 FROM USER_COL_COMMENTS;  
 
 
-## 3. 인덱스 목록조회  
+#### 3. 인덱스 목록조회  
 ALL_INDEXES      
 ALL_IND_COLUMNS  
 ALL_CONSTRAINTS  
