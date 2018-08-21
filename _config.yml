@@ -57,6 +57,9 @@ descriptions:
   - cat: Linux
     desc: "About Linux."
     
+  - cat: Databases
+    desc: "About Databases. Oracle / MSSQL / MySQL"
+    
 # Social icons and sharing options
 #
 # Social settings are used in two places:
